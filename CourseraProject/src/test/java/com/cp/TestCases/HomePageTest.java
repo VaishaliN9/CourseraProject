@@ -145,6 +145,7 @@ public class HomePageTest extends BaseTest {
 		System.out.println("Second course Time: " + SecondCourseTime);
 		Assert.assertTrue(SecondCourseTime.contains(homepage.courseTwoTime));
 		System.out.println("");
+		System.out.println("Finish");
 
 	}
 }
